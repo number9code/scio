@@ -23,12 +23,12 @@ import java.util.UUID
 
 import com.spotify.scio._
 import com.spotify.scio.avro.AvroUtils._
+import com.spotify.scio.avro.TestRecord
 import com.spotify.scio.io.Tap
 import com.spotify.scio.testing.PipelineSpec
 import org.apache.avro.Schema
 import org.apache.avro.file.DataFileReader
 import org.apache.avro.specific.SpecificDatumReader
-import org.apache.avro.test.TestRecord
 import org.apache.commons.io.FileUtils
 import org.apache.hadoop.conf.Configuration
 
